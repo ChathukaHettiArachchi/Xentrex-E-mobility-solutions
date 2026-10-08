@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Xentrex E - Mobility Solutions — Premium LiFePO₄ Batteries for Electric Bikes. Brand New Grade A Cells, Reliable Power, Maximum Performance & 3-Years Warranty. Call 077 810 2469.">
+  <title>Xentrex E - Mobility Solutions | Premium LiFePO₄ E-Bike Batteries</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-neutral-950 text-neutral-100 font-sans antialiased selection:bg-emerald-500 selection:text-black">
+
+  <!-- ==========================================
+       1. HEADER / NAVIGATION
+       ========================================== -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-neutral-800/40 bg-neutral-950/85 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Logo -->
+        <a href="#home" class="flex items-center space-x-3 group">
+          <div class="w-10 h-10 rounded-xl bg-neutral-900 border border-emerald-500/40 p-1 flex items-center justify-center group-hover:scale-105 transition-transform shadow-lg shadow-emerald-500/20">
+            <img src="assets/images/logo.svg" alt="Xentrex Logo" class="w-full h-full object-contain">
+          </div>
+          <div class="flex flex-col">
+            <span class="font-heading font-extrabold text-2xl tracking-wider text-white flex items-center">
+              XENTRE<span class="text-emerald-400">X</span>
+            </span>
+            <span class="text-[9px] font-bold text-emerald-500 tracking-widest uppercase -mt-1">E - Mobility Solutions</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold">
+          <a href="#home" class="nav-link text-neutral-300 hover:text-emerald-400 transition-colors">Home</a>
+          <a href="#products" class="nav-link text-neutral-300 hover:text-emerald-400 transition-colors">Battery Packs</a>
+          <a href="#features" class="nav-link text-neutral-300 hover:text-emerald-400 transition-colors">Why LiFePO₄</a>
+          <a href="#warranty" class="nav-link text-neutral-300 hover:text-emerald-400 transition-colors">3-Years Warranty</a>
+          <a href="#calculator" class="nav-link text-neutral-300 hover:text-emerald-400 transition-colors">Range Calc</a>
+          <a href="#contact" class="nav-link text-neutral-300 hover:text-emerald-400 transition-colors">Contact</a>
+        </nav>
+
+        <!-- Prominent Call Now Button -->
+        <div class="hidden md:block">
+          <a href="tel:0778102469" class="inline-flex items-center space-x-2 px-5 py-2.5 rounded-full bg-emerald-500 text-neutral-950 font-extrabold text-sm hover:bg-emerald-400 transition-all duration-200 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 pulse-cta">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.37 2.4z"/>
+            </svg>
+            <span>Call Now: 077 810 2469</span>
+          </a>
+        </div>
+
+        <!-- Mobile Hamburger Button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" type="button" aria-label="Toggle Menu" class="p-2 rounded-lg text-neutral-300 hover:text-white hover:bg-neutral-800 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-neutral-900 border-b border-neutral-800 px-4 pt-2 pb-6 space-y-3">
+      <a href="#home" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-neutral-200 hover:text-emerald-400 hover:bg-neutral-800">Home</a>
+      <a href="#products" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-neutral-200 hover:text-emerald-400 hover:bg-neutral-800">Battery Packs</a>
+      <a href="#features" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-neutral-200 hover:text-emerald-400 hover:bg-neutral-800">Why LiFePO₄</a>
+      <a href="#warranty" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-neutral-200 hover:text-emerald-400 hover:bg-neutral-800">3-Years Warranty</a>
+      <a href="#calculator" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-neutral-200 hover:text-emerald-400 hover:bg-neutral-800">Range Calc</a>
+      <a href="#contact" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-neutral-200 hover:text-emerald-400 hover:bg-neutral-800">Contact</a>
+      <div class="pt-2">
+        <a href="tel:0778102469" class="nav-link flex justify-center items-center space-x-2 w-full px-5 py-3 rounded-full bg-emerald-500 text-neutral-950 font-extrabold text-sm hover:bg-emerald-400">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.37 2.4z"/>
+          </svg>
+          <span>Call Now: 077 810 2469</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section id="home" class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+    <!-- Ambient Background Glow -->
+    <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[650px] hero-glow-bg rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Left Column Text -->
+        <div class="lg:col-span-6 space-y-6 animate-hero-fade">
+          
+          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full neon-badge">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+            <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-400">
+              BRAND NEW GRADE A CELLS • 3-YEARS WARRANTY
+            </span>
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight">
+            Premium <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-500">LiFePO₄ Batteries</span> For Electric Bikes.
+          </h1>
+
+          <p class="text-lg text-neutral-300 max-w-xl leading-relaxed">
+            Upgrade your electric bike with 100% Brand New Grade A LiFePO₄ technology. Engineered for reliable power, maximum performance, longer lifespan, and 3-years full warranty peace of mind.
+          </p>
+
+          <!-- Key Value Bullet List -->
+          <div class="grid grid-cols-2 gap-3 pt-1 text-sm text-neutral-200">
+            <div class="flex items-center space-x-2">
+              <span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs font-bold">✓</span>
+              <span class="font-semibold">Brand New Grade A Cells</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs font-bold">✓</span>
+              <span class="font-semibold">Unbeatable 3-Years Warranty</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs font-bold">✓</span>
+              <span class="font-semibold">Reliable Max Performance</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs font-bold">✓</span>
+              <span class="font-semibold">Smart BMS Protection</span>
+            </div>
+          </div>
+
+          <div class="pt-4 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
+            <a href="tel:0778102469" class="inline-flex justify-center items-center px-8 py-3.5 rounded-full bg-emerald-500 text-neutral-950 font-extrabold text-base hover:bg-emerald-400 transition-all duration-200 shadow-xl shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:-translate-y-0.5 pulse-cta">
+              <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.37 2.4z"/>
+              </svg>
+              <span>Order Now: 077 810 2469</span>
+            </a>
+            <a href="#products" class="inline-flex justify-center items-center px-8 py-3.5 rounded-full bg-neutral-900 border border-neutral-700 text-neutral-200 font-semibold text-base hover:bg-neutral-800 hover:border-emerald-500/40 transition-all duration-200">
+              Explore Battery Packs
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Hero Right Column Product Showcase Visual -->
+        <div class="lg:col-span-6 animate-hero-fade" style="animation-delay: 0.2s;">
+          <div class="relative rounded-2xl overflow-hidden border border-neutral-800/80 shadow-2xl group bg-neutral-900">
+            <img src="assets/images/lifepo4_hero.jpg" alt="Xentrex Premium LiFePO4 E-Bike Battery Pack" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/20 to-transparent opacity-80"></div>
+            
+            <!-- Floating Spec Overlay Badge -->
+            <div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-neutral-950/85 backdrop-blur-md border border-emerald-500/30 flex items-center justify-between">
+              <div class="flex items-center space-x-3">
+                <div class="w-11 h-11 rounded-lg bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 font-extrabold text-xl">
+                  🔋
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-white">LiFePO₄ High Energy Density</h4>
+                  <p class="text-xs text-neutral-400">Grade A Cells • 3500+ Cycles • Smart BMS</p>
+                </div>
+              </div>
+              <span class="text-xs font-extrabold px-3 py-1.5 rounded-full bg-emerald-500 text-neutral-950">3-Years Warranty</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       3. WHY CHOOSE US / FEATURES GRID
+       ========================================== -->
+  <section id="features" class="py-24 bg-neutral-900/50 border-y border-neutral-800/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-4 reveal">
+        <span class="text-xs font-extrabold text-emerald-400 uppercase tracking-widest">Unmatched Quality & Performance</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+          Why Choose <span class="text-emerald-400">Xentrex LiFePO₄ Batteries?</span>
+        </h2>
+        <p class="text-neutral-400 text-base">
+          Engineered specifically for electric bikes requiring consistent high power, long-distance range, and maximum safety.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Feature 1: Grade A Cells -->
+        <div class="reveal p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-emerald-500/40 card-hover space-y-5">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl font-bold">
+            ⚡
+          </div>
+          <h3 class="text-xl font-extrabold text-white">Brand New Grade A Cells</h3>
+          <p class="text-sm text-neutral-400 leading-relaxed">
+            We use 100% factory-fresh, tested Grade A LiFePO₄ cells with matched internal resistance for true rated capacity and zero voltage sag.
+          </p>
+        </div>
+
+        <!-- Feature 2: 3-Years Warranty -->
+        <div class="reveal p-8 rounded-2xl bg-neutral-900 border border-emerald-500/40 warranty-badge card-hover space-y-5" style="transition-delay: 0.1s;">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/20 border border-emerald-500/50 flex items-center justify-center text-emerald-400 text-2xl font-bold">
+            🛡️
+          </div>
+          <div class="flex items-center space-x-2">
+            <h3 class="text-xl font-extrabold text-white">3-Years Full Warranty</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-emerald-500 text-neutral-950 uppercase">Guaranteed</span>
+          </div>
+          <p class="text-sm text-neutral-300 leading-relaxed">
+            Enjoy total peace of mind with our solid 3-Years Warranty coverage and fast, hassle-free local replacement service.
+          </p>
+        </div>
+
+        <!-- Feature 3: Reliable Power & Max Performance -->
+        <div class="reveal p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-emerald-500/40 card-hover space-y-5" style="transition-delay: 0.2s;">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl font-bold">
+            🚀
+          </div>
+          <h3 class="text-xl font-extrabold text-white">Reliable Power & Performance</h3>
+          <p class="text-sm text-neutral-400 leading-relaxed">
+            Delivers high continuous discharge current for steep hill climbs, fast acceleration, and heavy load carrying without overheating.
+          </p>
+        </div>
+
+        <!-- Feature 4: Smart BMS Protection -->
+        <div class="reveal p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-emerald-500/40 card-hover space-y-5">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl font-bold">
+            🧠
+          </div>
+          <h3 class="text-xl font-extrabold text-white">Smart BMS Battery Protection</h3>
+          <p class="text-sm text-neutral-400 leading-relaxed">
+            Integrated intelligent Battery Management System guards against over-charge, over-discharge, short circuits, and thermal spikes.
+          </p>
+        </div>
+
+        <!-- Feature 5: 3500+ Deep Cycles -->
+        <div class="reveal p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-emerald-500/40 card-hover space-y-5" style="transition-delay: 0.1s;">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl font-bold">
+            🔄
+          </div>
+          <h3 class="text-xl font-extrabold text-white">3500+ Deep Charge Cycles</h3>
+          <p class="text-sm text-neutral-400 leading-relaxed">
+            Lasts 5x longer than traditional lithium or lead-acid batteries. Provides 7 to 10 years of dependable daily riding.
+          </p>
+        </div>
+
+        <!-- Feature 6: Eco-Friendly & Safe Chemistry -->
+        <div class="reveal p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-emerald-500/40 card-hover space-y-5" style="transition-delay: 0.2s;">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl font-bold">
+            🌿
+          </div>
+          <h3 class="text-xl font-extrabold text-white">Thermal & Explosion Proof</h3>
+          <p class="text-sm text-neutral-400 leading-relaxed">
+            LiFePO₄ (Lithium Iron Phosphate) is intrinsically stable and will not catch fire or explode even under puncture or high temperatures.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       4. PRODUCT SHOWCASE SECTION
+       ========================================== -->
+  <section id="products" class="py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12 space-y-4 reveal">
+        <span class="text-xs font-extrabold text-emerald-400 uppercase tracking-widest">E-Bike LiFePO₄ Battery Packs</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Select Your <span class="text-emerald-400">Battery Pack</span>
+        </h2>
+        <p class="text-base sm:text-lg text-neutral-400">
+          Built with brand-new Grade A cells and a 3-Years Warranty. Compatible with all major electric bike models.
+        </p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="flex flex-wrap justify-center items-center gap-2 sm:gap-4 mb-12 reveal">
+        <button class="filter-btn active px-5 py-2.5 rounded-full text-xs font-extrabold uppercase tracking-wider border border-emerald-500/40 text-neutral-300" data-filter="all">All Packs</button>
+        <button class="filter-btn px-5 py-2.5 rounded-full text-xs font-extrabold uppercase tracking-wider border border-neutral-800 hover:border-emerald-500/40 text-neutral-300" data-filter="48v">48V Series</button>
+        <button class="filter-btn px-5 py-2.5 rounded-full text-xs font-extrabold uppercase tracking-wider border border-neutral-800 hover:border-emerald-500/40 text-neutral-300" data-filter="60v">60V Series</button>
+        <button class="filter-btn px-5 py-2.5 rounded-full text-xs font-extrabold uppercase tracking-wider border border-neutral-800 hover:border-emerald-500/40 text-neutral-300" data-filter="72v">72V High-Power</button>
+      </div>
+
+      <!-- Battery Pack Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Card 1: 48V 20Ah LiFePO4 Pack -->
+        <div class="reveal vehicle-item card-hover rounded-2xl bg-neutral-900 border border-neutral-800 overflow-hidden flex flex-col" data-category="48v">
+          <div class="img-zoom-container relative h-60 bg-neutral-950">
+            <img src="assets/images/lifepo4_hero.jpg" alt="48V 20Ah LiFePO4 E-Bike Battery Pack" class="img-zoom w-full h-full object-cover">
+            <span class="absolute top-4 left-4 bg-emerald-500 text-neutral-950 px-3 py-1 rounded-full text-xs font-extrabold uppercase">
+              3-Years Warranty
+            </span>
+            <span class="absolute bottom-4 right-4 bg-neutral-950/90 backdrop-blur-md text-emerald-400 px-3 py-1 rounded-full text-xs font-bold border border-emerald-500/30">
+              Grade A Cells
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-6">
+            <div>
+              <h3 class="text-2xl font-bold text-white">Xentrex Pro 48V 20Ah</h3>
+              <p class="text-sm text-neutral-400 mb-6">Standard Electric Bike LiFePO₄ Battery</p>
+
+              <ul class="space-y-3 text-sm text-neutral-300">
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Nominal Voltage</span>
+                  <span class="font-bold text-white">48V DC</span>
+                </li>
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Capacity</span>
+                  <span class="font-bold text-white">20Ah (960Wh)</span>
+                </li>
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Max BMS Output</span>
+                  <span class="font-bold text-white">45A Continuous</span>
+                </li>
+                <li class="flex items-center justify-between">
+                  <span class="text-neutral-400">Motor Compatibility</span>
+                  <span class="font-semibold text-emerald-400">350W – 1000W</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="space-y-2">
+              <a href="tel:0778102469" class="w-full py-3 rounded-xl bg-emerald-500 text-neutral-950 hover:bg-emerald-400 font-extrabold text-sm transition-all duration-200 flex justify-center items-center space-x-2 shadow-md shadow-emerald-500/20">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.37 2.4z"/></svg>
+                <span>Order Now: 077 810 2469</span>
+              </a>
+              <button data-car="48v" class="view-details-btn w-full py-2.5 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-300 font-semibold text-xs transition-colors border border-neutral-700">
+                View Detailed Specs
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: 60V 24Ah LiFePO4 Pack -->
+        <div class="reveal vehicle-item card-hover rounded-2xl bg-neutral-900 border border-neutral-800 overflow-hidden flex flex-col" data-category="60v" style="transition-delay: 0.1s;">
+          <div class="img-zoom-container relative h-60 bg-neutral-950">
+            <img src="assets/images/lifepo4_cells.jpg" alt="60V 24Ah LiFePO4 Battery Pack" class="img-zoom w-full h-full object-cover">
+            <span class="absolute top-4 left-4 bg-emerald-500 text-neutral-950 px-3 py-1 rounded-full text-xs font-extrabold uppercase">
+              Best Seller
+            </span>
+            <span class="absolute bottom-4 right-4 bg-neutral-950/90 backdrop-blur-md text-emerald-400 px-3 py-1 rounded-full text-xs font-bold border border-emerald-500/30">
+              3-Years Warranty
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-6">
+            <div>
+              <h3 class="text-2xl font-bold text-white">Xentrex Ultra 60V 24Ah</h3>
+              <p class="text-sm text-neutral-400 mb-6">Long Range E-Bike & Scooter Pack</p>
+
+              <ul class="space-y-3 text-sm text-neutral-300">
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Nominal Voltage</span>
+                  <span class="font-bold text-white">60V DC</span>
+                </li>
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Capacity</span>
+                  <span class="font-bold text-white">24Ah (1440Wh)</span>
+                </li>
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Max BMS Output</span>
+                  <span class="font-bold text-white">60A Continuous</span>
+                </li>
+                <li class="flex items-center justify-between">
+                  <span class="text-neutral-400">Motor Compatibility</span>
+                  <span class="font-semibold text-emerald-400">1000W – 2000W</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="space-y-2">
+              <a href="tel:0778102469" class="w-full py-3 rounded-xl bg-emerald-500 text-neutral-950 hover:bg-emerald-400 font-extrabold text-sm transition-all duration-200 flex justify-center items-center space-x-2 shadow-md shadow-emerald-500/20 pulse-cta">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.37 2.4z"/></svg>
+                <span>Order Now: 077 810 2469</span>
+              </a>
+              <button data-car="60v" class="view-details-btn w-full py-2.5 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-300 font-semibold text-xs transition-colors border border-neutral-700">
+                View Detailed Specs
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: 72V 30Ah LiFePO4 Pack -->
+        <div class="reveal vehicle-item card-hover rounded-2xl bg-neutral-900 border border-neutral-800 overflow-hidden flex flex-col" data-category="72v" style="transition-delay: 0.2s;">
+          <div class="img-zoom-container relative h-60 bg-neutral-950">
+            <img src="assets/images/lifepo4_hero.jpg" alt="72V 30Ah LiFePO4 High Power Pack" class="img-zoom w-full h-full object-cover">
+            <span class="absolute top-4 left-4 bg-emerald-500 text-neutral-950 px-3 py-1 rounded-full text-xs font-extrabold uppercase">
+              High Power
+            </span>
+            <span class="absolute bottom-4 right-4 bg-neutral-950/90 backdrop-blur-md text-emerald-400 px-3 py-1 rounded-full text-xs font-bold border border-emerald-500/30">
+              3-Years Warranty
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-6">
+            <div>
+              <h3 class="text-2xl font-bold text-white">Xentrex Hyper 72V 30Ah</h3>
+              <p class="text-sm text-neutral-400 mb-6">High Output Speed & Heavy Torque Pack</p>
+
+              <ul class="space-y-3 text-sm text-neutral-300">
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Nominal Voltage</span>
+                  <span class="font-bold text-white">72V DC</span>
+                </li>
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Capacity</span>
+                  <span class="font-bold text-white">30Ah (2160Wh)</span>
+                </li>
+                <li class="flex items-center justify-between border-b border-neutral-800 pb-2">
+                  <span class="text-neutral-400">Max BMS Output</span>
+                  <span class="font-bold text-white">90A Peak</span>
+                </li>
+                <li class="flex items-center justify-between">
+                  <span class="text-neutral-400">Motor Compatibility</span>
+                  <span class="font-semibold text-emerald-400">2000W – 4000W</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="space-y-2">
+              <a href="tel:0778102469" class="w-full py-3 rounded-xl bg-emerald-500 text-neutral-950 hover:bg-emerald-400 font-extrabold text-sm transition-all duration-200 flex justify-center items-center space-x-2 shadow-md shadow-emerald-500/20">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.37 2.4z"/></svg>
+                <span>Order Now: 077 810 2469</span>
+              </a>
+              <button data-car="72v" class="view-details-btn w-full py-2.5 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-300 font-semibold text-xs transition-colors border border-neutral-700">
+                View Detailed Specs
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       5. TRUST / 3-YEARS WARRANTY SECTION
+       ========================================== -->
+  <section id="warranty" class="py-24 bg-neutral-950 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="p-8 sm:p-14 rounded-3xl bg-neutral-900 border border-emerald-500/40 shadow-2xl space-y-12 warranty-badge">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <div class="lg:col-span-8 space-y-4">
+            <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 text-xs font-extrabold uppercase">
+              <span>🛡️ XENTREX GUARANTEE</span>
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+              Unbeatable <span class="text-emerald-400">3-Years Replacement Warranty.</span>
+            </h2>
+            <p class="text-neutral-300 leading-relaxed">
+              Every Xentrex battery pack is manufactured using 100% Brand New Grade A LiFePO₄ cells, individually tested for voltage balance and capacity before shipment. We back our craftsmanship with a complete 3-Years Warranty.
+            </p>
+          </div>
+
+          <div class="lg:col-span-4 text-center lg:text-right space-y-3">
+            <div class="text-5xl sm:text-6xl font-extrabold text-emerald-400 font-heading">3 YEARS</div>
+            <div class="text-sm font-bold text-white uppercase tracking-wider">Full Warranty Coverage</div>
+            <p class="text-xs text-neutral-400">Direct Local Support • Fast Replacement</p>
+          </div>
+
+        </div>
+
+        <!-- 3 Trust Badges -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-neutral-800/80">
+          
+          <div class="flex items-center space-x-4 p-4 rounded-xl bg-neutral-950 border border-neutral-800">
+            <div class="w-12 h-12 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl font-bold">
+              ✓
+            </div>
+            <div>
+              <h4 class="text-sm font-bold text-white">Grade A Certified</h4>
+              <p class="text-xs text-neutral-400">0% Reused / Recycled Cells</p>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-4 p-4 rounded-xl bg-neutral-950 border border-neutral-800">
+            <div class="w-12 h-12 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl font-bold">
+              ⚡
+            </div>
+            <div>
+              <h4 class="text-sm font-bold text-white">Zero Sag Power</h4>
+              <p class="text-xs text-neutral-400">Steady Voltage Output</p>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-4 p-4 rounded-xl bg-neutral-950 border border-neutral-800">
+            <div class="w-12 h-12 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl font-bold">
+              📞
+            </div>
+            <div>
+              <h4 class="text-sm font-bold text-white">Direct Phone Support</h4>
+              <p class="text-xs text-neutral-400">Call 077 810 2469 Anytime</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       6. RANGE & BATTERY CALCULATOR
+       ========================================== -->
+  <section id="calculator" class="py-24 bg-neutral-900/30 border-b border-neutral-800/60">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="p-8 sm:p-12 rounded-3xl bg-neutral-900 border border-neutral-800 shadow-2xl space-y-8 reveal">
+        
+        <div class="text-center space-y-2">
+          <span class="text-xs font-extrabold text-emerald-400 uppercase tracking-widest">E-Bike Distance Estimator</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+            Calculate Your <span class="text-emerald-400">E-Bike Range</span>
+          </h2>
+          <p class="text-neutral-400 text-sm">
+            Select your pack voltage and capacity slider to calculate projected riding range.
+          </p>
+        </div>
+
+        <div class="space-y-8 pt-4">
+          
+          <!-- Pack Voltage Selector -->
+          <div class="space-y-3">
+            <span class="block text-sm font-medium text-neutral-300">Select Battery Voltage</span>
+            <div class="grid grid-cols-3 gap-3">
+              <button type="button" data-mode="eco" class="mode-btn py-3 rounded-xl bg-neutral-800 text-neutral-300 hover:bg-neutral-700 font-medium text-sm transition-all text-center">
+                48V Pack
+              </button>
+              <button type="button" data-mode="normal" class="mode-btn py-3 rounded-xl bg-emerald-500 text-black font-extrabold text-sm transition-all text-center shadow-md shadow-emerald-500/20">
+                60V Pack
+              </button>
+              <button type="button" data-mode="sport" class="mode-btn py-3 rounded-xl bg-neutral-800 text-neutral-300 hover:bg-neutral-700 font-medium text-sm transition-all text-center">
+                72V Pack
+              </button>
+            </div>
+          </div>
+
+          <!-- Slider Input for Capacity (Ah) -->
+          <div class="space-y-3">
+            <div class="flex justify-between items-center text-sm font-medium">
+              <label for="battery-slider" class="text-neutral-300">Battery Capacity (Ah)</label>
+              <span id="battery-val" class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 font-bold text-sm border border-emerald-500/30">
+                24 Ah
+              </span>
+            </div>
+            <input id="battery-slider" type="range" min="15" max="45" value="24" step="1" class="w-full">
+            <div class="flex justify-between text-xs text-neutral-500 font-medium">
+              <span>15 Ah</span>
+              <span>30 Ah</span>
+              <span>45 Ah</span>
+            </div>
+          </div>
+
+          <!-- Estimated Range Display Box -->
+          <div class="p-6 rounded-2xl bg-neutral-950 border border-neutral-800 text-center space-y-1">
+            <span class="text-xs uppercase tracking-wider text-neutral-400">Estimated Riding Distance</span>
+            <div id="estimated-range" class="text-4xl sm:text-5xl font-extrabold text-emerald-400 font-heading">
+              75–90 km
+            </div>
+            <p class="text-xs text-neutral-500 pt-2">*Calculated based on Grade A LiFePO4 energy density at average riding speed.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       7. CONTACT & ORDER SECTION
+       ========================================== -->
+  <section id="contact" class="py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="p-8 sm:p-12 rounded-3xl bg-neutral-900 border border-neutral-800 shadow-2xl space-y-10 reveal">
+        
+        <div class="text-center max-w-xl mx-auto space-y-3">
+          <span class="text-xs font-extrabold text-emerald-400 uppercase tracking-widest">Ready To Upgrade Your E-Bike?</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+            Order Your <span class="text-emerald-400">Battery Pack Today</span>
+          </h2>
+          <p class="text-neutral-300 text-sm">
+            Call us directly or send a message to get quick pricing, custom pack sizing, or technical advice for your electric bike.
+          </p>
+        </div>
+
+        <!-- Prominent Phone CTA Box -->
+        <div class="p-6 rounded-2xl bg-neutral-950 border border-emerald-500/40 text-center space-y-4">
+          <div class="text-xs font-extrabold text-neutral-400 uppercase tracking-wider">Fastest Way To Order & Inquire</div>
+          <a href="tel:0778102469" class="inline-flex items-center space-x-3 text-2xl sm:text-4xl font-extrabold text-emerald-400 hover:text-emerald-300 transition-colors">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.37 2.4z"/></svg>
+            <span>077 810 2469</span>
+          </a>
+          <p class="text-xs text-neutral-400">Available Monday – Saturday for direct phone orders & consultation</p>
+        </div>
+
+        <!-- Confirmation Banner (JS populated) -->
+        <div id="form-status-msg" class="hidden"></div>
+
+        <!-- Contact / Order Form -->
+        <form id="contact-form" class="space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            
+            <div class="space-y-2">
+              <label for="name" class="block text-sm font-semibold text-neutral-300">Your Name</label>
+              <input type="text" id="name" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl bg-neutral-950 border border-neutral-800 text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors">
+            </div>
+
+            <div class="space-y-2">
+              <label for="phone" class="block text-sm font-semibold text-neutral-300">Phone Number</label>
+              <input type="tel" id="phone" required placeholder="077 123 4567" class="w-full px-4 py-3 rounded-xl bg-neutral-950 border border-neutral-800 text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors">
+            </div>
+
+          </div>
+
+          <div class="space-y-2">
+            <label for="voltage" class="block text-sm font-semibold text-neutral-300">E-Bike Voltage Required</label>
+            <select id="voltage" class="w-full px-4 py-3 rounded-xl bg-neutral-950 border border-neutral-800 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors">
+              <option value="48V">48V Battery Pack</option>
+              <option value="60V">60V Battery Pack</option>
+              <option value="72V">72V Battery Pack</option>
+              <option value="Custom">Custom Battery Specification</option>
+            </select>
+          </div>
+
+          <div class="space-y-2">
+            <label for="message" class="block text-sm font-semibold text-neutral-300">Message / Inquiry Details</label>
+            <textarea id="message" rows="3" placeholder="Specify your e-bike model, motor wattage, or custom battery dimensions..." class="w-full px-4 py-3 rounded-xl bg-neutral-950 border border-neutral-800 text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors resize-none"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-4 rounded-xl bg-emerald-500 text-neutral-950 font-extrabold text-base hover:bg-emerald-400 transition-all shadow-lg shadow-emerald-500/25">
+            Submit Order Inquiry
+          </button>
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       8. FOOTER
+       ========================================== -->
+  <footer class="bg-neutral-950 border-t border-neutral-800/80 pt-16 pb-12 text-sm text-neutral-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-neutral-800/60">
+        
+        <!-- Left Brand Info -->
+        <div class="md:col-span-6 space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="w-9 h-9 rounded-xl bg-neutral-900 border border-emerald-500/40 p-1 flex items-center justify-center">
+              <img src="assets/images/logo.svg" alt="Xentrex Logo" class="w-full h-full object-contain">
+            </div>
+            <div class="flex flex-col">
+              <span class="font-heading font-extrabold text-2xl tracking-wider text-white">
+                XENTRE<span class="text-emerald-400">X</span>
+              </span>
+              <span class="text-[9px] font-bold text-emerald-500 tracking-widest uppercase -mt-1">E - Mobility Solutions</span>
+            </div>
+          </div>
+          <p class="text-neutral-400 max-w-sm">
+            Premium LiFePO₄ Batteries for Electric Bikes. Brand New Grade A Cells, Reliable Power, Maximum Performance & 3-Years Warranty.
+          </p>
+          <div class="pt-2 text-white font-extrabold text-base flex items-center space-x-2">
+            <span class="text-emerald-400">📞 Phone:</span>
+            <a href="tel:0778102469" class="hover:underline text-emerald-400">077 810 2469</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="text-white font-semibold text-base">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#home" class="hover:text-emerald-400 transition-colors">Home</a></li>
+            <li><a href="#products" class="hover:text-emerald-400 transition-colors">Products</a></li>
+            <li><a href="#features" class="hover:text-emerald-400 transition-colors">Why LiFePO₄</a></li>
+            <li><a href="#warranty" class="hover:text-emerald-400 transition-colors">3-Years Warranty</a></li>
+            <li><a href="#contact" class="hover:text-emerald-400 transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Social & Direct Call -->
+        <div class="md:col-span-3 space-y-4">
+          <h4 class="text-white font-semibold text-base">Follow & Connect</h4>
+          <div class="flex space-x-4">
+            <!-- Facebook Profile Link -->
+            <a href="https://www.facebook.com/profile.php?id=61591369629466" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile" class="w-11 h-11 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-neutral-300 hover:text-emerald-400 hover:border-emerald-500/40 transition-colors shadow-md">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+            </a>
+          </div>
+          <a href="tel:0778102469" class="inline-block px-4 py-2 rounded-lg bg-emerald-500/10 border border-emerald-500/40 text-emerald-400 font-bold text-xs hover:bg-emerald-500 hover:text-neutral-950 transition-colors">
+            Call: 077 810 2469
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Bottom Copyright -->
+      <div class="pt-8 text-center text-neutral-500 text-xs">
+        © 2026 Xentrex E - Mobility Solutions. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ==========================================
+       9. BATTERY PACK DETAILS MODAL
+       ========================================== -->
+  <div id="vehicle-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 modal-backdrop">
+    <div class="relative w-full max-w-2xl bg-neutral-900 border border-neutral-800 rounded-3xl overflow-hidden shadow-2xl space-y-6 p-6 sm:p-8">
+      
+      <!-- Close Button -->
+      <button id="modal-close-btn" type="button" class="absolute top-4 right-4 p-2 rounded-full bg-neutral-800 text-neutral-400 hover:text-white hover:bg-neutral-700 transition-colors">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+
+      <!-- Modal Content Header -->
+      <div>
+        <span id="modal-subtitle" class="text-xs font-bold text-emerald-400 uppercase tracking-widest">3-Years Warranty</span>
+        <h3 id="modal-title" class="text-3xl font-extrabold text-white">Xentrex Ultra 60V 24Ah</h3>
+      </div>
+
+      <!-- Modal Image -->
+      <div class="rounded-xl overflow-hidden bg-neutral-950 border border-neutral-800 h-56 sm:h-64">
+        <img id="modal-image" src="assets/images/lifepo4_hero.jpg" alt="Battery Detail Image" class="w-full h-full object-cover">
+      </div>
+
+      <!-- Specs Grid -->
+      <div class="grid grid-cols-3 gap-4 text-center p-4 rounded-xl bg-neutral-950 border border-neutral-800/80">
+        <div>
+          <span class="block text-xs text-neutral-400">Voltage</span>
+          <span id="modal-range" class="text-lg font-bold text-emerald-400">60V DC</span>
+        </div>
+        <div>
+          <span class="block text-xs text-neutral-400">Capacity</span>
+          <span id="modal-power" class="text-lg font-bold text-white">24Ah (1440Wh)</span>
+        </div>
+        <div>
+          <span class="block text-xs text-neutral-400">Warranty</span>
+          <span id="modal-accel" class="text-lg font-bold text-emerald-400">3 Years</span>
+        </div>
+      </div>
+
+      <!-- Description -->
+      <p id="modal-desc" class="text-sm text-neutral-300 leading-relaxed">
+        Description text...
+      </p>
+
+      <div class="pt-2 flex justify-between items-center">
+        <a href="tel:0778102469" class="px-6 py-2.5 rounded-full bg-emerald-500 text-neutral-950 font-extrabold text-sm hover:bg-emerald-400 transition-colors flex items-center space-x-2">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.37 2.4z"/></svg>
+          <span>Call 077 810 2469 To Order</span>
+        </a>
+        <button onclick="document.getElementById('modal-close-btn').click();" class="px-5 py-2 rounded-full bg-neutral-800 text-neutral-300 font-semibold text-xs hover:bg-neutral-700 transition-colors">
+          Close Window
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Main Custom JavaScript Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>

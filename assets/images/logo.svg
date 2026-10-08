@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Swoosh Top-Left -->
+  <path d="M 130 180 C 130 100, 240 60, 330 110 C 270 80, 160 110, 145 190 Z" fill="url(#greenGrad)" />
+  
+  <!-- Outer Swoosh Bottom-Right -->
+  <path d="M 370 320 C 370 400, 260 440, 170 390 C 230 420, 340 390, 355 310 Z" fill="url(#greenGrad)" />
+  
+  <!-- Main White X Structure -->
+  <!-- Top Left Leg -->
+  <polygon points="160,130 230,130 260,195 210,215" fill="#FFFFFF" />
+  <!-- Bottom Right Leg -->
+  <polygon points="290,265 340,285 370,350 300,350" fill="#FFFFFF" />
+  <!-- Top Right Leg -->
+  <polygon points="340,130 270,130 200,350 270,350" fill="#FFFFFF" />
+  
+  <!-- Central Lightning Bolt in Green -->
+  <polygon points="280,130 215,250 255,250 220,350 290,225 248,225" fill="url(#boltGrad)" filter="url(#glow)" />
+
+  <!-- Brand Name Text: XENTREX -->
+  <g transform="translate(250, 420)" text-anchor="middle">
+    <!-- XENTRE in White -->
+    <text x="-25" y="0" font-family="'Outfit', 'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="44" fill="#FFFFFF" letter-spacing="4">XENTRE</text>
+    <!-- X in Green -->
+    <text x="105" y="0" font-family="'Outfit', 'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="44" fill="#10b981" letter-spacing="4">X</text>
+  </g>
+  
+  <!-- Subtitle: E-MOBILITY SOLUTIONS -->
+  <g transform="translate(250, 455)" text-anchor="middle">
+    <line x1="-190" y1="-5" x2="-120" y2="-5" stroke="#10b981" stroke-width="2" />
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-weight="700" font-size="14" fill="#10b981" letter-spacing="3">E-MOBILITY SOLUTIONS</text>
+    <line x1="120" y1="-5" x2="190" y2="-5" stroke="#10b981" stroke-width="2" />
+  </g>
+</svg>
